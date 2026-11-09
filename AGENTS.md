@@ -267,3 +267,71 @@ Still unresolved:
 - page-specific canonicals
 - final schema fields
 - real portfolio assets
+
+
+## Codex skills to install
+
+Before doing substantial visual-design, UX, interaction, or animation work on this project, install/read the following skills in the Codex environment:
+
+1. Apple Design Skill
+   - Source: https://github.com/dickwu/apple-design-skill
+   - Purpose here: clarity, hierarchy, familiar interaction patterns, accessibility, restraint, craft, and coherent brand expression.
+   - Do not interpret this as permission to imitate Apple.com.
+
+2. Impeccable
+   - Source: https://github.com/pbakaus/impeccable
+   - Purpose here: visual quality control, anti-template craft, hierarchy, composition, and avoiding generic AI-generated interface patterns.
+
+3. Taste Skill
+   - Install: `npx skills add Leonxlnx/taste-skill`
+   - Source: https://github.com/Leonxlnx/taste-skill
+   - Purpose here: art direction, image-led studio/service-page quality, stronger composition, and a distinctive but coherent visual system.
+
+4. Animate skill by Emil Kowalski
+   - Install: `npx skills add https://github.com/emilkowalski/skills --skill animate`
+   - Source: https://github.com/emilkowalski/skills
+   - Purpose here: purposeful UI motion, timing/easing, transform/opacity-first animation, interaction feedback, and reduced-motion discipline.
+
+If a repository-based skill requires the Skills CLI rather than manual cloning, use the installation method documented by that skill/repository. Do not repeatedly reinstall a skill that is already available in the Codex environment.
+
+### Skill conflict policy
+
+Do not try to satisfy every skill literally. They are advisory systems, not four independent design specifications.
+
+When recommendations conflict, use this priority:
+
+1. Accessibility and usability.
+2. Existing Matchstick brand identity and factual/business requirements.
+3. Clear hierarchy and familiar interaction behavior.
+4. Impeccable anti-template craft and visual quality.
+5. Taste-led art direction.
+6. Animate guidance for purposeful motion.
+
+The existing Matchstick design system in this repository takes precedence over a skill suggesting a wholesale stylistic reset.
+
+Examples:
+- Do not copy Apple visual styling merely because the Apple skill is installed.
+- Do not add motion simply because the Animate skill suggests an opportunity.
+- Do not introduce dramatic art direction that hurts portfolio readability or local-business conversion.
+- Do not replace the logo-led teal/sage/charcoal/clay palette unless explicitly asked.
+- Do not add GSAP or Lenis unless a concrete interaction cannot be implemented cleanly with the current CSS/React approach.
+- Preserve reduced-motion behavior.
+- Preserve SEO-critical content as crawlable HTML.
+
+### How to use the skills
+
+For a normal coding/content task, do not spend tokens invoking every design skill.
+
+Use the relevant skills when the task actually involves:
+- visual redesign
+- layout/composition
+- component styling
+- responsive design
+- interaction design
+- animation/motion
+- design-system changes
+- UI/UX audit
+
+For simple bug fixes, content corrections, metadata changes, data updates, or backend/form work, follow AGENTS.md and inspect the code without unnecessarily running a full design-skill review.
+
+For major visual iterations, first inspect the current page and implementation, then apply the skills together under the conflict policy above. The goal is to improve the existing Matchstick system, not regenerate the website from scratch.
