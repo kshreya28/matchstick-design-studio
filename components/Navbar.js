@@ -7,7 +7,7 @@ export default function Navbar() {
       <a className="skip-link" href="#main-content">Skip to content</a>
       <div className="container nav-shell">
         <Link href="/" className="brand" aria-label={`${business.name} home`}>
-          <span className="brand-mark" aria-hidden="true" />
+          <img src="/brand/matchstick-logo.jpeg" alt="" className="brand-logo" aria-hidden="true" />
           <span>{business.shortName}</span>
         </Link>
         <nav className="desktop-nav" aria-label="Primary navigation">
